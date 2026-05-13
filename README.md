@@ -44,12 +44,12 @@ A free Groq API key is available at console.groq.com. If you prefer to run every
 
 To use the command line:
 
-python main.py ingest --ticker AAPL --form 10-K --limit 3
-python main.py query --ticker AAPL --q "What are Apple's main risks?"
-python main.py chat --ticker AAPL
-python main.py drift --ticker META --section "risk factors" --year-a 2022 --year-b 2024
-python main.py eval
-python main.py stats
+- python main.py ingest --ticker AAPL --form 10-K --limit 3
+- python main.py query --ticker AAPL --q "What are Apple's main risks?"
+- python main.py chat --ticker AAPL
+- python main.py drift --ticker META --section "risk factors" --year-a 2022 --year-b 2024
+- python main.py eval
+- python main.py stats
 
 To run the web app:
 
